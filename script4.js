@@ -22,7 +22,7 @@ class movie{
       PG_movie.push(mv[i].title);
     }
   }
-  return "PG movie list: " + PG_movie.join(', ');    
+  return "PG movie list: " + PG_movie;    
 }
 }
 var c1 = new movie("Casino Royale","Eon Production");
